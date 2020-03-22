@@ -1,4 +1,4 @@
-#  eXit version 1.0 | coded by Murat Erdemir | last update: 3/19/20
+#  eXit version 1.1 | coded by Murat Erdemir | last update: 3/23/20
 
 # # # # # # # # # # #
 #      __  ___ _    #
@@ -11,30 +11,29 @@
 
 # <<< main >>>
 
-print("\nrunning eXit version 1.0")
+print("\n>> running eXit version 1.1 <<")
+print(">> coded by Murat Erdemir <<")
 
 # tutorial >>
-
-print("\nTUTORIAL")
+print("\n\n<< TUTORIAL >>")
 print("-"*50)
 print("\nYou have 4 eligible answer for each phase, so you can pick one of these, then write the answer.")
-print("\nIf you choose wrong answer, you'll get the question back which is you answer it.")
-
-print("\nAnswers:")
+print("If you choose wrong answer, you'll get the question back which is you answer it.\n")
 print("-"*50)
-print(" # Leave ")
-print(" # Stay ")
-print(" # Examine ")
-print(" # Interact ")
+print("\nHint:")
+print("\nDid you watch the Sam Esmail's 'Mr. Robot' before?")
+print("If you did, you can use the answers from S4-E11.")
+print("Don't worry, there is no spoiler from Mr. Robot.\n")
 print("-"*50)
-
-print("\nInfo: If you watched Sam Esmail's 'Mr. Robot' before, you can write the answers from Season 4 - Episode 11.")
+print("\nAnswers: 'Examine', 'Interact', 'Leave', 'Stay'")
+print("\nHint: 'Yes', 'No', 'Light', 'Take', 'Read' are eligible answers too.\n")
+print("-"*50)
 
 input("\nPRESS THE ENTER KEY TO START")
 
 # answers >>
 
-answer = ["leave", "stay", "examine", "yes", "no"]
+answer = ["leave", "stay", "examine", "light", "take", "read", "yes", "no"]
 elliot_answer = ["move the barrel", "sit down next to my friend",
                  "enter tunnel", "stay", "light a match", "read note", "leave", "look", "get on the boat"]
 
@@ -55,7 +54,8 @@ while True:
                 print("What do you do?")
                 while True:
                     answer = input("> ").lower()
-                    if answer == "interact" or answer == "leave" or answer == "read note":   # Phase_1.3 (Read note)
+                    if answer == "interact" or answer == "read" or answer == "take" or answer == "read note":
+                        # Phase_1.3 (Read note)
                         print("\nIt is too dark to read the note.")
                         print("What do you do?")
                         while True:
@@ -120,6 +120,10 @@ while True:
                                                 print("You didn't left your friend.")
                                                 input("\nPress enter to exit the game.")
                                                 break
+                                            elif answer == "leave" or answer == "yes":
+                                                print("\nYou left your friend.")
+                                                input("\nPress enter to exit the game.")
+                                                break
                                         break
                                     elif answer == "leave" or answer == "yes":
                                         print("\nYou left your friend.")
@@ -148,7 +152,7 @@ while True:
                                         input("\nPress enter to exit the game.")
                                         break
                                 break
-                            elif answer == "leave" or answer == "yes":
+                            elif answer == "leave" or answer == "no":
                                 print("\nYou left your friend.")
                                 input("\nPress enter to exit the game.")
                                 break
@@ -201,3 +205,6 @@ while True:
                 input("\nPress enter to exit the game.")
                 break
         break
+    elif answer == "examine":
+        print("\nThere is a light beam visible behind of the barrel.")
+        print("What do you do?")

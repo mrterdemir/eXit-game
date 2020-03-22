@@ -92,15 +92,23 @@ IDLE includes a help menu that allows you to access Python documentation. If you
 If you are familiar with Python on other Unix platforms you should read the section on running Python scripts from the Unix shell.
 
 ## Game Tutorial
-You have 4 eligible answer for each phase, so you can pick one of these, then write the answer. If you choose wrong answer, you'll get the question back which is you answer it.
+You have 4 eligible answer for each phase, so you can pick one of these, then write the answer.
 
-If you watched Sam Esmail's 'Mr. Robot' before, you can write the answers from Season 4 - Episode 11.
+If you choose wrong answer, you'll get the question back which is you answer it.
+
+**! Hint:**
+Did you watch the Sam Esmail's 'Mr. Robot' before? If you did, you can use the answers from S4-E11.
+
+Don't worry, there is no spoiler from Mr. Robot.
 
 #### Answers
 - Leave
 - Stay
 - Examine
 - Interact
+
+**! Hint:**
+_Yes_, _No_, _Light_, _Take_, _Read_ are eligible answers too.
 
 ## Credits
 - [Murat Erdemir](https://github.com/mrterdemir) (Developer)

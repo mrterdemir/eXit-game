@@ -1,4 +1,4 @@
-#  eXit version 1.1 | coded by Murat Erdemir | last update: 3/23/20
+#  eXit version 1.2 | coded by Murat Erdemir | last update: 4/27/20
 
 # # # # # # # # # # #
 #      __  ___ _    #
@@ -11,8 +11,7 @@
 
 # <<< main >>>
 
-print("\n>> running eXit version 1.1 <<")
-print(">> coded by Murat Erdemir <<")
+print("running eXit version 1.2")
 
 # tutorial >>
 print("\n\n<< TUTORIAL >>")
@@ -87,7 +86,7 @@ while True:
                                         print("What do you do?")
                                         while True:
                                             answer = input("> ").lower()
-                                            if answer == "interact" or answer == "stay":    # Phase_2.2 (Light a match)
+                                            if answer == "interact" or answer == "take" or answer == "read" or answer == "stay":    # Phase_2.2 (Light a match)
                                                 print("""\nThe note says, "Don't leave me here again." """)
                                                 print("Do you leave your friend or stay?")
                                                 while True:
@@ -125,9 +124,48 @@ while True:
                                                 input("\nPress enter to exit the game.")
                                                 break
                                         break
-                                    elif answer == "leave" or answer == "yes":
-                                        print("\nYou left your friend.")
-                                        input("\nPress enter to exit the game.")
+                                    elif answer == "leave" or answer == "no":
+                                        print("\nYou crawl through the tunnel and the tunnel leads you to a beach.")
+                                        input("What do you do?")
+                                        while True:
+                                            answer = input("> ").lower()
+                                            if answer == "leave" or answer == "examine" or answer == "look":
+                                                print("\nIn the water you see a boat.")
+                                                print("What do you do?")
+                                                while True:
+                                                    answer = input("> ").lower()
+                                                    if answer == "leave" or answer == "interact" or answer == "get on the boat":
+                                                        # Phase_1.6 (Get on the boat)
+                                                        print("\nCongratulations, you're heading to a new world!")
+                                                        input("\nPress enter to exit the game.")
+                                                        break
+                                                    elif answer == "stay":
+                                                        print("\nTunnel is collapsed, you cannot come back!")
+                                                        print("You left your friend.")
+                                                        input("\nPress enter to exit the game.")
+                                                        break
+                                                break
+                                            elif answer == "stay":
+                                                print("\nYou came back! Your friend hands you a note.")
+                                                print("What do you do?")
+                                                while True:
+                                                    answer = input("> ").lower()
+                                                    if answer == "interact" or answer == "take" or answer == "read" or answer == "stay":
+                                                        print("""\nThe note says, "Don't leave me here again." """)
+                                                        print("Do you leave your friend or stay?")
+                                                        while True:
+                                                            answer = input("> ").lower()
+                                                            if answer == "stay" or answer == "no":
+                                                                print("\nDungeon is collapsed.")
+                                                                print("You didn't left your friend.")
+                                                                input("\nPress enter to exit the game.")
+                                                                break
+                                                        break
+                                                    elif answer == "leave" or answer == "yes":
+                                                        print("\nTunnel is collapsed, you cannot leave again!")
+                                                        input("\nPress enter to exit the game.")
+                                                        break
+                                                break
                                         break
                                 break
                         break
@@ -153,17 +191,127 @@ while True:
                                         break
                                 break
                             elif answer == "leave" or answer == "no":
-                                print("\nYou left your friend.")
-                                input("\nPress enter to exit the game.")
+                                print("\nYou crawl through the tunnel and the tunnel leads you to a beach.")
+                                print("What do you do?")
+                                while True:
+                                    answer = input("> ").lower()
+                                    if answer == "leave" or answer == "examine" or answer == "look":
+                                        print("\nIn the water you see a boat.")
+                                        print("What do you do?")
+                                        while True:
+                                            answer = input("> ").lower()
+                                            if answer == "leave" or answer == "interact" or answer == "get on the boat":
+                                                # Phase_1.6 (Get on the boat)
+                                                print("\nCongratulations, you're heading to a new world!")
+                                                input("\nPress enter to exit the game.")
+                                                break
+                                            elif answer == "stay":
+                                                print("\nTunnel is collapsed, you cannot come back!")
+                                                print("You left your friend.")
+                                                input("\nPress enter to exit the game.")
+                                                break
+                                        break
+                                    elif answer == "stay":  # Phase_2.1 (Sit down next to my friend)
+                                        print("\nYou came back! Your friend hands you a note.")
+                                        print("What do you do?")
+                                        while True:
+                                            answer = input("> ").lower()
+                                            if answer == "interact" or answer == "take" or answer == "read" or answer == "stay":  # Phase_2.2 (Light a match)
+                                                print("""\nThe note says, "Don't leave me here again." """)
+                                                print("Do you leave your friend or stay?")
+                                                while True:
+                                                    answer = input("> ").lower()
+                                                    if answer == "stay" or answer == "no":
+                                                        print("\nDungeon is collapsed.")
+                                                        print("You didn't left your friend.")
+                                                        input("\nPress enter to exit the game.")
+                                                        break
+                                                break
+                                            elif answer == "leave" or answer == "yes":
+                                                print("\nTunnel is collapsed, you cannot leave again!")
+                                                input("\nPress enter to exit the game.")
+                                                break
+                                        break
                                 break
                         break
                 break
-            elif answer == "stay":    # Phase_2.1 (Sit down next to my friend)
+            elif answer == "stay":
                 print("\nYour friend hands you a note.")
                 print("What do you do?")
                 while True:
                     answer = input("> ").lower()
-                    if answer == "interact" or answer == "stay":    # Phase_2.2 (Light a match)
+                    if answer == "interact" or answer == "take" or answer == "stay":
+                        print("\nIt is too dark to read the note.")
+                        print("What do you do?")
+                        while True:
+                            answer = input("> ").lower()
+                            if answer == "examine" or answer == "stay":
+                                print("\nYou found a match on the ground.")
+                                print("Do you light the match?")
+                                while True:
+                                    answer = input("> ").lower()
+                                    if answer == "interact" or answer == "light" or answer == "yes":
+                                        # Phase_2.2 (Light a match)
+                                        print("""\nThe note says, "Don't leave me here." """)
+                                        print("Do you leave your friend or stay?")
+                                        while True:
+                                            answer = input("> ").lower()
+                                            if answer == "stay" or answer == "no":
+                                                print("\nDungeon is collapsed.")
+                                                print("You didn't left your friend.")
+                                                input("\nPress enter to exit the game.")
+                                                break
+                                            elif answer == "leave" or answer == "yes":
+                                                print("\nYou left your friend.")
+                                                input("\nPress enter to exit the game.")
+                                                break
+                                        break
+                                    elif answer == "leave" or answer == "no":
+                                        print("\nYou crawl through the tunnel and the tunnel leads you to a beach.")
+                                        input("What do you do?")
+                                        while True:
+                                            answer = input("> ").lower()
+                                            if answer == "leave" or answer == "examine" or answer == "look":
+                                                print("\nIn the water you see a boat.")
+                                                print("What do you do?")
+                                                while True:
+                                                    answer = input("> ").lower()
+                                                    if answer == "leave" or answer == "interact" or answer == "get on the boat":
+                                                        # Phase_1.6 (Get on the boat)
+                                                        print("\nCongratulations, you're heading to a new world!")
+                                                        input("\nPress enter to exit the game.")
+                                                        break
+                                                    elif answer == "stay":
+                                                        print("\nTunnel is collapsed, you cannot come back!")
+                                                        print("You left your friend.")
+                                                        input("\nPress enter to exit the game.")
+                                                        break
+                                                break
+                                            elif answer == "stay":
+                                                print("\nYou came back! Your friend hands you a note.")
+                                                print("What do you do?")
+                                                while True:
+                                                    answer = input("> ").lower()
+                                                    if answer == "interact" or answer == "take" or answer == "read" or answer == "stay":
+                                                        print("""\nThe note says, "Don't leave me here again." """)
+                                                        print("Do you leave your friend or stay?")
+                                                        while True:
+                                                            answer = input("> ").lower()
+                                                            if answer == "stay" or answer == "no":
+                                                                print("\nDungeon is collapsed.")
+                                                                print("You didn't left your friend.")
+                                                                input("\nPress enter to exit the game.")
+                                                                break
+                                                        break
+                                                    elif answer == "leave" or answer == "yes":
+                                                        print("\nTunnel is collapsed, you cannot leave again!")
+                                                        input("\nPress enter to exit the game.")
+                                                        break
+                                                break
+                                        break
+                                break
+                        break
+                    if answer == "interact" or answer == "stay":
                         print("""\nThe note says, "Don't leave me here." """)
                         print("Do you leave your friend or stay?")
                         while True:
@@ -174,7 +322,7 @@ while True:
                                 input("\nPress enter to exit the game.")
                                 break
                         break
-                    elif answer == "leave" or answer == "yes":
+                    elif answer == "leave":
                         print("\nYou left your friend.")
                         input("\nPress enter to exit the game.")
                         break
@@ -185,7 +333,7 @@ while True:
         print("What do you do?")
         while True:
             answer = input("> ").lower()
-            if answer == "interact" or answer == "stay" or answer == "light a match":    # Phase_2.2 (Light a match)
+            if answer == "interact" or answer == "take" or answer == "read" or answer == "stay" or answer == "light a match":    # Phase_2.2 (Light a match)
                 print("""\nThe note says, "Don't leave me here." """)
                 print("Do you leave your friend or stay?")
                 while True:

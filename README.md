@@ -3,9 +3,12 @@
 ![License](https://img.shields.io/github/license/mrterdemir/eXit-game)
 
 ## My Motivation
-Nowadays, I'm still learning new things about Python for everyday. When I discovered Python, which was exactly what I was looking for. This language made sense to me, and seemed so powerful. Also Python is a programming language which is easier than C/C++. So I devoting a lot of hours to learning Python. This situation made me finally at the point where I can build small projects in Python.
+Nowadays, I'm still learning new things about Python almost everyday. When I discovered Python, which was exactly all I was looking for. This language made sense to me, and seemed so powerful. So I devoted a lot of hours to learning Python. This situation made me finally at the point where I can build small projects.
 
-I developed this game to get more knowledge about Python's algorithm and while loops. This development phase is made me so more fad.
+Therefore, I developed this game to get more knowledge about Python algorithm and while loops. This development phase is made me so more fad.
+
+![Screenshot_1](https://erdemirmurat.com/img/article/exit-1.png)
+![Screenshot_2](https://erdemirmurat.com/img/article/exit-2.png)
 
 I would like to thank my father, my girlfriend and my friend Ömer Onur Alpaslan who supported me in this process.
 
@@ -15,11 +18,12 @@ I would like to thank my father, my girlfriend and my friend Ömer Onur Alpaslan
 - Mac OS X 10.9 (Mavericks) and later systems.
 
 ## Planned future updates
-- GUI to configure app.
-- Add new stages.
-- Add new consequences.
+- UI to visualize app
+- Add new stages
 
 ## Installing
+**!Important:** The latest version of eXit was released on April 27, 2020. In the latest version, added a new executable file for Windows operating systems. The installation steps on the below only helps you to install Python. If you don't want to install Python, download the latest version and continue read from Game Tutorial.
+
 ### Linux/UNIX Installation Steps
 #### On Linux
 Python comes preinstalled on most Linux distributions, and is available as a package on all others. However there are certain features you might want to use that are not available on your distro’s package. You can easily compile the latest version of Python from source.
@@ -115,4 +119,7 @@ _Yes_, _No_, _Light_, _Take_, _Read_ are eligible answers too.
 - Ahmet Erdemir (Game Tester)
 
 ## License
+#### MIT License
+The eXit is licensed under the MIT License which is a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
 Please see LICENSE.md

@@ -3,12 +3,12 @@
 ![License](https://img.shields.io/github/license/mrterdemir/eXit-game)
 
 ## My Motivation
-Nowadays, I'm still learning new things about Python almost everyday. When I discovered Python, which was exactly all I was looking for. This language made sense to me, and seemed so powerful. So I devoted a lot of hours to learning Python. This situation made me finally at the point where I can build small projects.
+When I discovered Python, which was exactly all I was looking for. This language made sense to me, and seemed so powerful. So I devoted a lot of hours to learning Python. This situation made me finally at the point where I can build small projects.
 
 Therefore, I developed this game to get more knowledge about Python algorithm and while loops. This development phase is made me so more fad.
 
-![Screenshot_1](https://erdemirmurat.com/img/article/exit-1.png)
-![Screenshot_2](https://erdemirmurat.com/img/article/exit-2.png)
+![Screenshot_1](https://erdemirmurat.com/img/a-python-project-exit-game/exit-1.png)
+![Screenshot_2](https://erdemirmurat.com/img/a-python-project-exit-game/exit-2.png)
 
 I would like to thank my father, my girlfriend and my friend Ömer Onur Alpaslan who supported me in this process.
 
@@ -116,7 +116,7 @@ _Yes_, _No_, _Light_, _Take_, _Read_ are eligible answers too.
 
 ## Credits
 - [Murat Erdemir](https://github.com/mrterdemir) (Developer)
-- Ahmet Erdemir (Game Tester)
+- Ahmet Erdemir (Tester)
 
 ## License
 #### MIT License

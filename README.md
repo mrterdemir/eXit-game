@@ -7,8 +7,8 @@ When I discovered Python, which was exactly all I was looking for. This language
 
 Therefore, I developed this game to get more knowledge about Python algorithm and while loops. This development phase is made me so more fad.
 
-![Screenshot_1](https://erdemirmurat.com/img/a-python-project-exit-game/exit-1.png)
-![Screenshot_2](https://erdemirmurat.com/img/a-python-project-exit-game/exit-2.png)
+![Screenshot_1](https://raw.githubusercontent.com/mrterdemir/mrterdemir.github.io/master/img/a-python-project-exit-game/exit-1.png)
+![Screenshot_2](https://raw.githubusercontent.com/mrterdemir/mrterdemir.github.io/master/img/a-python-project-exit-game/exit-2.png)
 
 I would like to thank my father, my girlfriend and my friend Ömer Onur Alpaslan who supported me in this process.
 

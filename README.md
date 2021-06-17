@@ -10,7 +10,7 @@ Therefore, I developed this game to get more knowledge about Python algorithm an
 ![Screenshot_1](https://raw.githubusercontent.com/mrterdemir/mrterdemir.github.io/master/img/a-python-project-exit-game/exit-1.png)
 ![Screenshot_2](https://raw.githubusercontent.com/mrterdemir/mrterdemir.github.io/master/img/a-python-project-exit-game/exit-2.png)
 
-I would like to thank my father, my girlfriend and my friend Ömer Onur Alpaslan who supported me in this process.
+I would like to thank who supported me in this process.
 
 ## Prerequesties
 - Python 3.8

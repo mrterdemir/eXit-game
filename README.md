@@ -17,7 +17,7 @@ Therefore, I developed this game to get more knowledge about Python algorithm an
 - Add new stages
 
 ## Installing
-**!Important:** The latest version of eXit was released on April 27, 2020. In the latest version, added a new executable file for Windows operating systems. The installation steps on the below only helps you to install Python. If you don't want to install Python, download the latest version [here](https://github.com/mrterdemir/eXit-game/releases/download/v1.2/eXit-game-1.2.zip).
+**!Important:** The latest version of eXit was released on April 27, 2020. In the latest version, added a new executable file for Windows operating systems. The installation steps on the below only helps you to install Python. If you don't want to install Python, download the version 1.2 [here](https://github.com/mrterdemir/eXit-game/releases/download/v1.2/eXit-game-1.2.zip).
 
 ### Linux/UNIX Installation Steps
 **On Linux**
@@ -54,7 +54,7 @@ For example i386 users get the 2.5.1 version of Python using:
 pkg_add ftp://ftp.openbsd.org/pub/OpenBSD/4.2/packages/i386/python-2.5.1p2.tgz
 ```
 
-*On OpenSolaris*
+**On OpenSolaris**
 You can get Python from [OpenCSW](https://www.opencsw.org/). Various versions of Python are available and can be installed with e.g. ```pkgutil -i python27```.
 
 ### Windows Installation Steps
@@ -103,9 +103,6 @@ You have 4 eligible answer for each phase, so you can pick one of these, then wr
 - Stay
 - Examine
 - Interact
-
-**! Hint:**
-_Yes_, _No_, _Light_, _Take_, _Read_ are eligible answers too.
 
 ## Credits
 - [Murat Erdemir](https://twitter.com/mrterdemir) (Developer)

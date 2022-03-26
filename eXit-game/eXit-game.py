@@ -1,4 +1,4 @@
-#  eXit version 1.2 | coded by Murat Erdemir | last update: 4/27/20
+#  eXit version 1.2.2 | coded by Murat Erdemir | last update: 3/26/22
 
 # # # # # # # # # # #
 #      __  ___ _    #
@@ -11,22 +11,27 @@
 
 # <<< main >>>
 
-print("running eXit version 1.2")
+print("running eXit version 1.2.2")
 
 # tutorial >>
-print("\n\n<< TUTORIAL >>")
-print("-"*50)
-print("\nYou have 4 eligible answer for each phase, so you can pick one of these, then write the answer.")
-print("If you choose wrong answer, you'll get the question back which is you answer it.\n")
-print("-"*50)
-print("\nHint:")
-print("\nDid you watch the Sam Esmail's 'Mr. Robot' before?")
-print("If you did, you can use the answers from S4-E11.")
-print("Don't worry, there is no spoiler from Mr. Robot.\n")
-print("-"*50)
-print("\nAnswers: 'Examine', 'Interact', 'Leave', 'Stay'")
-print("\nHint: 'Yes', 'No', 'Light', 'Take', 'Read' are eligible answers too.\n")
-print("-"*50)
+
+print("\n<< HOW TO PLAY >>")
+print("""
+Move the barrel 
+Sit down next to my friend
+Enter tunnel
+Stay
+Light a match
+Read note 
+Leave
+Look
+Get on the boat
+Examine
+Light
+Take
+Read
+Yes No
+                 """)
 
 input("\nPRESS THE ENTER KEY TO START")
 
@@ -59,7 +64,7 @@ while True:
                         print("What do you do?")
                         while True:
                             answer = input("> ").lower()
-                            if answer == "leave":   # Phase_1.4 (Leave)
+                            if answer == "leave" or answer == "light a match":   # Phase_1.4 (Leave)
                                 print("\nYou crawl through the tunnel and the tunnel leads you to a beach.")
                                 print("What do you do?")
                                 while True:
@@ -245,7 +250,7 @@ while True:
                         print("What do you do?")
                         while True:
                             answer = input("> ").lower()
-                            if answer == "examine" or answer == "stay":
+                            if answer == "examine" or answer == "stay" or answer == "light a match":
                                 print("\nYou found a match on the ground.")
                                 print("Do you light the match?")
                                 while True:
